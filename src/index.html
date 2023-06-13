@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="script.js"></script>
+    <title>Timeline</title>
+  </head>
+  <body
+    class="bg-[#f6f5f8] flex flex-col justify-center sm:items-center min-h-screen px-4"
+  >
+    <div class="">
+      <h1 class="text-xl font-medium text-center">My road to glory!</h1>
+      <p class="text-center mt-2 text-sm text-slate-500">
+        Below you can see a timeline with some of my <br />
+        professional acccomplishments.
+      </p>
+    </div>
+
+    <div
+      class="w-1 rounded-full h-[34rem] bg-blue-500 mt-8 flex flex-col justify-around"
+    >
+      <!-- 1 -->
+      <div class="relative flex items-center hover:scale-105 transition-all">
+        <div
+          class="w-5 h-5 text-xs flex items-center justify-around rounded-full bg-[#3b82f6] absolute -top-2 left-1/2 -translate-x-1/2 cursor-pointer btn text-white font-bold"
+          data-tab="1"
+        >
+          01
+        </div>
+
+        <div
+          class="absolute left-8 rounded-md shadow-lg py-2 px-4 w-[15rem] sm:w-[18rem] bg-white content--1 transition-all duration-500 origin-left moveInLeft1"
+        >
+          <span class="text-xs text-slate-400">March 30 2009</span>
+          <p class="text-xs text-slate-500 mt-1">
+            Wrote my first blog post ever <br />
+            on medium
+          </p>
+
+          <div class="flex items-center gap-1 mt-3">
+            <button class="text-xs font-bold">Read more</button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-3 h-3 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="absolute top-1 right-1 text-sm font-medium bg-[#ecf3ee] py-0.5 px-1 rounded-md"
+          >
+            Medium
+          </div>
+
+          <div
+            class="bg-white w-4 h-4 rotate-45 absolute -left-2 top-1/2 -translate-y-1/2"
+          ></div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="relative flex items-center hover:scale-105 transition-all">
+        <div
+          class="w-5 h-5 text-sm font-medium flex items-center justify-around rounded-full bg-[#3b82f6] absolute -top-2 left-1/2 -translate-x-1/2 cursor-pointer btn text-white"
+          data-tab="2"
+        >
+          02
+        </div>
+
+        <div
+          class="absolute left-8 sm:left-auto sm:right-8 rounded-md shadow-lg py-2 px-4 w-[15rem] sm:w-[18rem] bg-white sm:text-right content--2 transition-all duration-500 origin-left sm:origin-right moveInRight1"
+        >
+          <span class="text-xs text-slate-400">August 20 2017</span>
+          <p class="text-xs text-slate-500 mt-1">
+            Created my blog and wrote my <br />
+            first blog post on it
+          </p>
+
+          <div class="flex items-center gap-1 sm:justify-end mt-3">
+            <button class="text-xs font-bold">Read more</button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-3 h-3 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="absolute top-1 right-1 sm:right-auto sm:left-1 text-sm font-medium bg-[#fbf4f0] py-0.5 px-1 rounded-md"
+          >
+            Blog
+          </div>
+
+          <div
+            class="bg-white w-4 h-4 rotate-45 absolute -left-2 sm:left-auto sm:-right-2 top-1/2 -translate-y-1/2"
+          ></div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+
+      <div class="relative flex items-center hover:scale-105 transition-all">
+        <div
+          class="w-5 h-5 font-medium text-sm flex items-center justify-center rounded-full bg-[#3b82f6] absolute -top-2 left-1/2 -translate-x-1/2 cursor-pointer btn text-white"
+          data-tab="3"
+        >
+          03
+        </div>
+
+        <div
+          class="absolute left-8 rounded-md shadow-lg py-2 px-4 w-[15rem] sm:w-[18rem] bg-white content--3 transition-all duration-500 origin-left moveInLeft2"
+        >
+          <span class="text-xs text-slate-400">February 25 2019</span>
+          <p class="text-xs text-slate-500 mt-1">
+            Start working on the app-idies <br />repository
+          </p>
+
+          <div class="flex items-center gap-1 mt-3">
+            <button class="text-xs font-bold">View on GitHub</button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-3 h-3 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="absolute top-1 right-1 text-sm font-medium bg-[#fbf4e6] py-0.5 px-1 rounded-md"
+          >
+            App ideas
+          </div>
+
+          <div
+            class="bg-white w-4 h-4 rotate-45 absolute -left-2 top-1/2 -translate-y-1/2"
+          ></div>
+        </div>
+      </div>
+      <!-- 4 -->
+
+      <div class="relative flex items-center hover:scale-105 transition-all">
+        <div
+          class="w-5 h-5 text-sm font-medium flex items-center justify-center rounded-full bg-[#3b82f6] absolute -top-2 left-1/2 -translate-x-1/2 cursor-pointer btn text-white"
+          data-tab="4"
+        >
+          04
+        </div>
+
+        <div
+          class="absolute left-8 sm:left-auto sm:right-8 rounded-md shadow-lg py-2 px-4 w-[15rem] sm:w-[18rem] bg-white sm:text-right content--4 transition-all duration-500 origin-left sm:origin-right moveInRight2"
+        >
+          <span class="text-xs text-slate-400">August 20 2017</span>
+          <p class="text-xs text-slate-500 mt-1">
+            Created my blog and wrote my <br />
+            first blog post on it
+          </p>
+
+          <div class="flex items-center gap-1 sm:justify-end mt-3">
+            <button class="text-xs font-bold">View Profile</button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-3 h-3 mt-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="absolute top-1 right-1 sm:right-auto sm:left-1 text-sm font-medium bg-[#fbf4f0] py-0.5 px-1 rounded-md flex items-center gap-1 text-blue-500"
+          >
+            Twitter
+            <ion-icon name="logo-twitter"></ion-icon>
+          </div>
+
+          <div
+            class="bg-white w-4 h-4 rotate-45 absolute -left-2 sm:left-auto sm:-right-2 top-1/2 -translate-y-1/2"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
